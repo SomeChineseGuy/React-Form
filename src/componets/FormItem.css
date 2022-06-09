@@ -1,0 +1,88 @@
+/* Input and Dropdown */
+.dropdown-container, .normal-input {
+  list-style-type: none;  
+  border: 1px solid var(--border-color);
+  margin-left: 0; 
+  border-radius: var(--raduis);
+  position: relative;
+  transition: all 1s ease;
+  max-height: 47px;
+  overflow: hidden;
+}
+
+.dropdown-container.red, .normal-input.red {
+  transition: all 0 ease;
+  border: 2px solid red;
+}
+
+.normal-input {
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  max-height: 48px;
+}
+
+.dropdown-container.open {
+  max-height: 1000px;
+}
+
+.dropdown-container ul{
+  padding: 10px;
+  list-style-type: none;  
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  border-top: 1px solid var(--border-color);
+  margin: 0;
+  font-size: var(--text);
+  padding: 15px;
+}
+
+input.selected {
+  border: none;
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+  box-sizing: content-box;
+  background-color: transparent;
+}
+
+
+
+.icon {
+  color: rgba(0, 79, 147, 0.5);
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.icon.up {
+  transform: rotateZ(180deg);
+}
+
+/* Drag and Drop */
+.draggable {
+  background-color: var(--grey);
+  padding: 24px;
+  padding-left: 50px;
+  border-radius: var(--raduis);
+}
+
+.drag-dots {
+  position: absolute;
+  top: 45px;
+  left: 15px;
+  font-size: 30px;
+}
+
+.single-draggable {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+

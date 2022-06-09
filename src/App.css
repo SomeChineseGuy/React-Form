@@ -1,0 +1,27 @@
+.App {
+  max-width: var(--main-form-width);
+  border-radius: var(--main-form-radius);
+  background-color: white;
+  margin: auto;
+  padding: 2rem;
+}
+
+body {
+  background-color: #f6fbff;
+}
+
+h5, p, li {
+  font-size: var(--text);
+}
+
+h1 {
+  font-size: var(--form-title);
+}
+
+h2 {
+  font-size: var(--section-title);
+}
+
+h3 {
+  margin: 0 0 10px 0;
+}

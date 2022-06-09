@@ -1,0 +1,15 @@
+:root {
+  --drop-height: 63px;
+  --text: 14px;
+  --heading: 18px;
+  --section-title: 24px;
+  --form-title: 32px;
+  --main-form-width: 950px;
+  --main-form-radius: 14px;
+  --raduis: 12px;
+  --border-color:rgba(0, 79, 147, 0.1);
+  --ship-max-width: 865px;
+  --grey: #FBFBFB;
+  --button: #0396FF;
+  --grid-gap: 20px;
+}
